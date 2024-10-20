@@ -3,6 +3,7 @@ NYU Processor Design Onboarding Labs
 
 ## Lab 1  
 **Folder**: lab1
+[Folder: lab1](https://github.com/yourusername/NYU-Processor-Design-Lab/tree/main/lab1)
 
 **Questions**:  
 **Relative Paths**  
