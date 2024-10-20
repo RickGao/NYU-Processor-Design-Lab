@@ -1,5 +1,6 @@
 # NYU Processor Design Lab
 [NYU Processor Design](https://nyu-processor-design.github.io) Vertically Integrated Projects Onboarding Labs
+
 For more information please see [Design Notebook](https://nyu-processor-design.github.io/design_notebooks/2024fall/rg4238.html)
 
 ## Lab 1
