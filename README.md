@@ -1,4 +1,4 @@
-# NYU-Processor-Design-Lab
+# NYU Processor Design Lab
 NYU Processor Design Onboarding Labs
 
 ## Lab 1  
@@ -20,6 +20,7 @@ CMake generates many files, such as `Makefile` and `CMakeCache.txt`, which can c
 **Folder**: lab2
 
 **Questions**:
+**Why do you think the reason for these different testing approaches are? What are their advantages and disadvantages?**
 
 1. **Exhaustive Testing (Exercise1)**  
 Tests all possible input combinations, ensuring complete coverage.  
