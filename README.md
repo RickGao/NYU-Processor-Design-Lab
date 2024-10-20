@@ -1,5 +1,5 @@
 # NYU Processor Design Lab
-NYU Processor Design Onboarding Labs
+[NYU Processor Design](https://nyu-processor-design.github.io) Vertically Integrated Projects Onboarding Labs
 
 ## Lab 1  
 **Folder**: [lab1](https://github.com/RickGao/NYU-Processor-Design-Lab/tree/main/lab1)
@@ -22,17 +22,17 @@ CMake generates many files, such as `Makefile` and `CMakeCache.txt`, which can c
 **Questions**:
 **Why do you think the reason for these different testing approaches are? What are their advantages and disadvantages?**
 
-1. **Exhaustive Testing (Exercise1)**  
+**Exhaustive Testing (Exercise1)**  
 Tests all possible input combinations, ensuring complete coverage.  
 **Advantage**: Catches all potential bugs; thorough.  
 **Disadvantage**: Time-consuming, impractical for large designs.
 
-2. **Sampled Testing (Exercise2)**  
+**Sampled Testing (Exercise2)**  
 Tests a subset of initial values for a hundred cycles.  
 **Advantage**: Efficient for large state spaces; covers many transitions.  
 **Disadvantage**: May miss bugs in untested states.
 
-3. **Random Testing (Exercise3)**  
+**Random Testing (Exercise3)**  
 Tests random inputs over a hundred cycles.  
 **Advantage**: Explores a wide range of inputs quickly, finds unexpected edge cases.  
 **Disadvantage**: No guaranteed coverage, harder to reproduce bugs.
