@@ -2,8 +2,7 @@
 NYU Processor Design Onboarding Labs
 
 ## Lab 1  
-**Folder**: lab1
-[Folder: lab1](https://github.com/yourusername/NYU-Processor-Design-Lab/tree/main/lab1)
+**Folder**: [lab1](https://github.com/RickGao/NYU-Processor-Design-Lab/tree/main/lab1)
 
 **Questions**:  
 **Relative Paths**  
@@ -18,7 +17,7 @@ CMake generates many files, such as `Makefile` and `CMakeCache.txt`, which can c
 ---
 
 ## Lab 2  
-**Folder**: lab2
+**Folder**: [lab2](https://github.com/RickGao/NYU-Processor-Design-Lab/tree/main/lab2)
 
 **Questions**:
 **Why do you think the reason for these different testing approaches are? What are their advantages and disadvantages?**
@@ -43,4 +42,10 @@ Exhaustive testing ensures completeness, while sampled and random testing offer 
 
 ---
 
-## Lab 3  
+## Lab 3
+**Folder**: [lab3](https://github.com/RickGao/NYU-Processor-Design-Lab/tree/main/lab3)
+
+---
+
+## Lab 4
+**Folder**: [lab4](https://github.com/RickGao/NYU-Processor-Design-Lab/tree/main/lab4)
