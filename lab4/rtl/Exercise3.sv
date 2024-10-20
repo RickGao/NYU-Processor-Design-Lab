@@ -33,11 +33,5 @@ module Exercise3 (
       .d(b_in)
   );
 
-  Mystery2 gamma (
-    .a_in(a_in),
-    .b_in(b_in),
-    .out(out)
-    .clk(clk),      // Connect the clock signal
-    .reset(reset),  // Connect the reset signal
-  );
+  Mystery2 gamma (.*);
 endmodule

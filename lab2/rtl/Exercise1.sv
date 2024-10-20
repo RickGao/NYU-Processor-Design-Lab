@@ -13,4 +13,11 @@ module Exercise1 (
     output [7:0] out
 );
 
+assign out = (op == 2'b00) ? (a + b) :       // Operation: a + b
+             (op == 2'b01) ? (a - b) :       // Operation: a - b
+             (op == 2'b10) ? (a & b) :       // Operation: a AND b
+             (op == 2'b11) ? (a | b) :       // Operation: a OR b
+             8'b0;                           // Default: 0
+
+
 endmodule
