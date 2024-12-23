@@ -52,6 +52,31 @@ Exhaustive testing ensures completeness, while sampled and random testing offer 
 ## Lab 4
 **Folder**: [lab4](https://github.com/RickGao/NYU-Processor-Design-Lab/tree/main/lab4)
 
+1. What is a registry?
+
+A registry is a collection of information about packages. It serves as a database or repository where packages (source code files) are stored and managed. Registries are referenced in the vcpkg.json file, and they inform the package manager (like vcpkg) where to search for and retrieve these packages.
+
+2. What is a package?
+
+A package is a collection of source code files or other assets that are grouped together to provide a specific functionality or utility. In the context of this lab, examples of packages include:
+
+nyu-cmake: Utility functions for working with SystemVerilog in cmake.
+catch2: A testing framework for design verification.
+3. What’s the difference between an interface library and a “normal” library or executable? Can you think of any uses for this besides SystemVerilog files?
+
+A normal library or executable contains code that is compiled into an output (e.g., a binary file or shared object file) when the library or executable is built.
+An interface library, on the other hand, does not contain precompiled code but instead consists of source files, headers, or other assets. These files are not compiled immediately but are associated with other targets (like executables) that use them.
+Uses for interface libraries besides SystemVerilog files:
+
+Header-only libraries in C++ (e.g., libraries that rely entirely on templates and don’t require separate compilation).
+Resource files (e.g., configuration files or static assets used at runtime).
+Generic programming assets (e.g., template code or reusable algorithms).
+4. What is a top module?
+
+A top module is the entry point for simulation or synthesis in hardware design. It is the highest-level module that integrates or instantiates other modules in the hierarchy. In the context of SystemVerilog and Verilator, top modules are the ones explicitly chosen to be exposed for simulation, allowing the design's behavior to be verified through test cases.
+
+For example, in this lab, Exercise1, Exercise2, Exercise3, and Exercise4 are top modules, while Mystery1 and Mystery2 are internal modules that are not directly tested on their own.
+
 ---
 
 ## Lab 5
